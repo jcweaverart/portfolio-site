@@ -2,7 +2,7 @@
   @import url('https://fonts.googleapis.com/css?family=Quicksand');
   @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
   @import url('https://fonts.googleapis.com/css?family=Archivo+Black');
-
+  @import "bootstrap-social.css";
 
   body {
     margin: 0px;
@@ -476,9 +476,40 @@
 
   .footer {
     text-align: center;
-    color: white;
+    color: #A1A1A1;
     background: black;
-    height: 300px;
+  }
+
+  .connect {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: left;
+  }
+
+  .rights-reserved {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background:#270066 ;
+  }
+
+  .btn-twitter {
+    background: #55ACEE;
+    color: white;    
+  }
+
+  .btn-github {
+    background: #444444;
+    color: white;
+  }
+
+  .btn-linkedin {
+    background: #007BB6;
+    color: white;
+  }
+
+  .btn-instagram {
+    background: #3F729B;
+    color: white;
   }
 
 /*-----End Site Footer-------*/
